@@ -1,0 +1,8 @@
+[package]
+name = "math3d"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sdl2 = { version = "0.38"} # bundled упрощает установку на Windows
+gl = "0.14"
