@@ -5,6 +5,7 @@ rustbasedTests
 - произведён полный рефакторинх
 пример
 <details>
+```
   pub trait Controller {
     fn position(&self) -> Vec3f;
     fn set_position(&mut self, pos: Vec3f);
@@ -49,7 +50,7 @@ if camera.no_clip {
     } else {
       collide_controller(&mut camera, &world);//<- 1 интерфейс для физики
     }
-}
+}```
 </details>
 ---
 - произведена оптимизация отрисовки
