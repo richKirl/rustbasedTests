@@ -9,7 +9,7 @@ rustbasedTests
 <details>
 
   ```
-    pub trait Controller {
+pub trait Controller {
     fn position(&self) -> Vec3f;
     fn set_position(&mut self, pos: Vec3f);
     fn forward(&self) -> Vec3f;
