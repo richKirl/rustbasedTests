@@ -2,6 +2,57 @@
 rustbasedTests
 
 Введённые изменения:
+
+-произведен полный профайлинх исходного кода программы теперь всё считается мега быстро
+
+```
+--------------------------------------------------------------------------------
+-- Metadata
+--------------------------------------------------------------------------------
+Invocation:       /usr/bin/cg_annotate cachegrind.out.39578
+Command:          target/release/math3d
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Threshold:        0.1%
+Annotation:       on
+
+--------------------------------------------------------------------------------
+-- Summary
+--------------------------------------------------------------------------------
+Ir____________________ 
+
+3,295,970,112 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+-- File:function summary
+--------------------------------------------------------------------------------
+  Ir__________________________  file:function
+
+< 3,198,728,671 (97.0%, 97.0%)  ???:
+  2,898,149,272 (87.9%)           math3d::main
+    279,442,870  (8.5%)           ???
+
+<     9,092,844  (0.3%, 97.3%)  ./libio/./libio/getc.c:getc
+
+<     8,641,030  (0.3%, 97.6%)  ./nptl/./nptl/pthread_mutex_lock.c:pthread_mutex_lock@@GLIBC_2.2.5
+
+<     8,358,526  (0.3%, 97.8%)  ./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:
+      8,062,957  (0.2%)           __memcpy_avx_unaligned_erms
+
+<     7,080,067  (0.2%, 98.1%)  ./string/../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:
+      7,079,899  (0.2%)           __memset_avx2_unaligned_erms
+
+<     6,740,743  (0.2%, 98.3%)  ./nptl/./nptl/pthread_mutex_unlock.c:pthread_mutex_unlock@@GLIBC_2.2.5
+
+<     5,770,730  (0.2%, 98.4%)  ./string/../sysdeps/x86_64/multiarch/strcmp-avx2.S:
+      4,521,264  (0.1%)           __strcmp_avx2
+
+
+```
+
+--
+
 - произведён полный рефакторинх
 
 - пример
