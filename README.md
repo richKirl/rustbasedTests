@@ -77,6 +77,49 @@ Ir____________________
 
 </details>
 
+код
+
+<details>
+
+```
+find . -type f -name "*.rs" -exec wc -l -c {} +
+    63   2106 ./window/win.rs
+     1     13 ./window/mod.rs
+   150   5667 ./main.rs
+   261  10407 ./geometry/texturerel.rs
+    26    542 ./geometry/light.rs
+    99   3307 ./geometry/light_buffers.rs
+   230   8071 ./geometry/particle.rs
+   106   3752 ./geometry/camera.rs
+     6    106 ./geometry/mod.rs
+  1111  38618 ./geometry/util.rs
+   555  19993 ./shader/shaders.rs
+     2     33 ./shader/mod.rs
+   127   3943 ./shader/shader.rs
+    21    815 ./initialize/initshaders.rs
+    78   5145 ./initialize/initmaplight.rs
+     2     43 ./initialize/mod.rs
+   124   4829 ./events/eventmanager.rs
+     1     22 ./events/mod.rs
+   224   8206 ./physics/inputcontroller.rs
+     2     52 ./physics/mod.rs
+   123   4408 ./physics/collidecontroller.rs
+   223   6119 ./math/quatf.rs
+   223   5488 ./math/vec3d.rs
+   122   4284 ./math/mat4vf.rs
+   242   6017 ./math/vec4f.rs
+   244   6032 ./math/vec3f.rs
+   226   5534 ./math/vec4d.rs
+   130   4549 ./math/frustum.rs
+     9    145 ./math/mod.rs
+   196   7278 ./math/dualquatf.rs
+  4927 165524 total
+
+
+```
+
+</details>
+
 --
 
 - произведён полный рефакторинх
