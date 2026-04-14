@@ -50,7 +50,29 @@ Ir____________________
 <     5,770,730  (0.2%, 98.4%)  ./string/../sysdeps/x86_64/multiarch/strcmp-avx2.S:
       4,521,264  (0.1%)           __strcmp_avx2
 
+--------------------------------------------------------------------------------
+-- Function:file summary
+--------------------------------------------------------------------------------
+  Ir__________________________  function:file
 
+> 2,898,149,272 (87.9%, 87.9%)  math3d::main:???
+
+>   279,452,258  (8.5%, 96.4%)  ???:
+    279,442,870  (8.5%)           ???
+
+>     9,092,844  (0.3%, 96.7%)  getc:./libio/./libio/getc.c
+
+>     8,641,030  (0.3%, 96.9%)  pthread_mutex_lock@@GLIBC_2.2.5:./nptl/./nptl/pthread_mutex_lock.c
+
+>     8,062,957  (0.2%, 97.2%)  __memcpy_avx_unaligned_erms:./string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+
+>     7,079,899  (0.2%, 97.4%)  __memset_avx2_unaligned_erms:./string/../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S
+
+>     6,740,743  (0.2%, 97.6%)  pthread_mutex_unlock@@GLIBC_2.2.5:./nptl/./nptl/pthread_mutex_unlock.c
+
+>     4,521,264  (0.1%, 97.7%)  __strcmp_avx2:./string/../sysdeps/x86_64/multiarch/strcmp-avx2.S
+
+...
 ```
 
 </details>
