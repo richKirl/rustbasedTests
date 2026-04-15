@@ -1,6 +1,9 @@
 # rustbasedTests
 rustbasedTests
 
+<img width="1852" height="1052" alt="image" src="https://github.com/user-attachments/assets/9ebc0aaa-ea22-4a4b-9865-d2390cb708a6" />
+
+
 Введённые изменения:
 
 - произведен полный профайлинх исходного кода программы, теперь всё считается мега быстро,
